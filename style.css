@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    position: absolute;
+}
+
+#color-left {
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 1000px;
+}
+
+#color-right {
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 1000px;
+}
+
+#color-bottom {
+    left: 50%;
+    bottom: 130px;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 180px;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
