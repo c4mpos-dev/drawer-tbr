@@ -27,6 +27,16 @@ function updateColors() {
     colorRight.style.backgroundColor = rightColor;
 }
 
-generateButton.addEventListener("click", updateColors);
+generateButton.addEventListener("click", () => {
+    let count = 0;
+    const interval = setInterval(() => {
+        updateColors();
+        count++;
+
+        if (count === 20) {
+            clearInterval(interval); // Parar o sorteio após 10 vezes
+        }
+    }, 100); // Intervalo de 0.2 segundos (200 milissegundos)
+});
 
 updateColors(); // Mostra as cores iniciais
