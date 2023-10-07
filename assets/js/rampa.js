@@ -10,6 +10,11 @@ modeButton.addEventListener("click", function () {
     window.location.href = "monitoramento.html";
 });
 
+window.addEventListener('scroll', function (e) {
+    // Impede a rolagem definindo a posição de rolagem de volta para o topo
+    window.scrollTo(0, 0);
+});
+
 function getRandomColor() {
     const randomIndex = Math.floor(Math.random() * colors.length);
     return colors[randomIndex];

@@ -1,4 +1,3 @@
-/* second_page.css */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -13,7 +12,7 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-    padding: 15px 60px;
+    padding: 11px 40px;
 }
 
 #mode-button{
