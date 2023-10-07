@@ -1,0 +1,47 @@
+/* second_page.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 100% da altura da janela */
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 60px;
+}
+
+#mode-button{
+    border-radius: 10px;
+    background-color: rgba(116, 111, 145, 0.445);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Calibri", sans-serif;
+}
+
+#generate-button{
+    border-radius: 10px;
+    background-color: rgba(116, 111, 145, 0.445);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Calibri", sans-serif;
+}
+
+
+.color-box {
+    flex: 1; /* Para ocupar metade da altura da janela */
+    border: 2px solid #000;
+}
+
+#color-top {
+    background-color: yellow;
+}
+
+#color-bottom {
+    background-color: red;
+}

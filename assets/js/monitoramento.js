@@ -1,30 +1,28 @@
-// script.js
-const colors = ["red", "green", "yellow"];
-const colorLeft = document.getElementById("color-left");
+const colorTop = document.getElementById("color-top");
 const colorBottom = document.getElementById("color-bottom");
-const colorRight = document.getElementById("color-right");
 const generateButton = document.getElementById("generate-button");
+const modeButton = document.getElementById("mode-button");
+
+modeButton.addEventListener("click", function () {
+    window.location.href = "index.html";
+});
 
 function getRandomColor() {
+    const colors = ["yellow", "red"]; // Cores diferentes
     const randomIndex = Math.floor(Math.random() * colors.length);
     return colors[randomIndex];
 }
 
 function updateColors() {
-    const leftColor = getRandomColor();
-    let bottomColor, rightColor;
+    const topColor = getRandomColor();
+    let bottomColor;
 
     do {
         bottomColor = getRandomColor();
-    } while (bottomColor === leftColor);
+    } while (bottomColor === topColor);
 
-    do {
-        rightColor = getRandomColor();
-    } while (rightColor === leftColor || rightColor === bottomColor);
-
-    colorLeft.style.backgroundColor = leftColor;
+    colorTop.style.backgroundColor = topColor;
     colorBottom.style.backgroundColor = bottomColor;
-    colorRight.style.backgroundColor = rightColor;
 }
 
 generateButton.addEventListener("click", () => {
