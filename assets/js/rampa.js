@@ -46,7 +46,7 @@ generateButton.addEventListener("click", () => {
         if (count === 20) {
             clearInterval(interval); // Parar o sorteio após 10 vezes
         }
-    }, 100); // Intervalo de 0.2 segundos (200 milissegundos)
+    }, 100); // Intervalo de 0.' segundos ('00 milissegundos)
 });
 
 updateColors(); // Mostra as cores iniciais
