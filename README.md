@@ -8,4 +8,4 @@ O projeto foi feito para auxiliar os juízes de mesa da categoria High do TBR 20
 ## 🛠️ Construído com
 
 * HTML, CSS e JavaScript - Estrutura de interface
-* [VISUAL STUDIO](https://visualstudio.microsoft.com/pt-br/downloads/) - IDE utilizado
+* [VISUAL STUDIO CODE]([https://visualstudiocode.microsoft.com/pt-br/downloads/](https://code.visualstudio.com/)https://code.visualstudio.com/) - IDE utilizado
