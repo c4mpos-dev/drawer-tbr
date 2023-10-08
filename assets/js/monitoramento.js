@@ -15,11 +15,7 @@ function getRandomColor() {
 
 function updateColors() {
     const topColor = getRandomColor();
-    let bottomColor;
-
-    do {
-        bottomColor = getRandomColor();
-    } while (bottomColor === topColor);
+    const bottomColor = getRandomColor();
 
     colorTop.style.backgroundColor = topColor;
     colorBottom.style.backgroundColor = bottomColor;
