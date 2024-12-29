@@ -3,7 +3,7 @@ O projeto foi feito para auxiliar os juízes de mesa da categoria High do TBR 20
 
 ## 🔗 Site para uso
 
-* https://drawer-tbr-2023.netlify.app/
+* https://drawer-tbr.vercel.app
 
 ## 🛠️ Construído com
 
